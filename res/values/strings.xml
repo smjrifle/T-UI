@@ -1,0 +1,231 @@
+<resources>
+
+    <!-- various text -->
+    <string name="app_name">T-UI</string>
+    <string name="separator_text">>></string>
+    
+    <!-- label -->
+    <string name="share_label">Share</string>
+    <string name="adminrequest_label">Lock the screen on double tap</string>
+    
+    <!-- pending operation -->
+    <string name="launching">Launching:</string>
+    <string name="searching">Searching:</string>
+    <string name="calling">Calling:</string>
+    <string name="sharing">Sharing:</string>
+    
+    <!-- internet -->
+	<string name="output_wifi">WiFi active:</string>
+	<string name="output_data">Mobile Data active:</string>
+    <string name="output_numbernotfound">Contact not found</string>
+    
+    <!-- files -->
+	<string name="output_isfile">Cant\'t write here. It\'s a file</string>
+	<string name="output_isdirectory">The selected file is a directory</string>
+	<string name="output_filenotfound">File not found</string>
+	<string name="output_ioerror">An unknown I/O error has occurred</string>
+
+	<string name="output_operationdone">Done</string>
+	<string name="output_opening">Opening file:</string>
+	
+	<!-- install/uninstall -->
+	<string name="output_installing">Installation triggered:</string>
+	<string name="output_uninstalling">Uninstall triggered:</string>
+	<string name="output_invalidapk">Invalid APK file</string>
+	<string name="output_appnotfound">Application or package not found</string>
+	
+	<!-- music -->
+	<string name="output_playing">Playing:</string>
+	<string name="output_paused">Paused:</string>
+	<string name="output_stopped">Player stopped</string>
+	<string name="output_cantprevious">This is the first song of the queue</string>
+	<string name="output_nomusic">Player wasn\'t started</string>
+	<string name="output_musicfoldererror">Music folder doesn\'t exist, or doesn\'t contain mp3 files.\nYou should set a 
+        new one using the command \"musicfolder\" in config</string>
+    
+    <!-- command/args -->
+	<string name="output_commandnotfound">Command not found, or not available in the current mode.
+	    \nTry to use \"help\"</string>
+	<string name="output_invalidarg">Invalid argument</string>
+	
+	<!-- assoc -->
+	<string name="output_createdassoc">Assoc created</string>
+	<string name="output_existingassoc">The entered assoc name already exists</string>
+	<string name="output_invalidassoc">This is an invalid assoc name</string>
+	<string name="output_assocdeleted">Assoc deleted</string>
+	
+	<!-- flash -->
+	<string name="output_flashon">Flashlight ON</string>
+	<string name="output_flashoff">Flashlight OFF</string>
+	<string name="output_flashlightnotavailable">Your device doesn\'t support flashlight</string>
+	
+	<!-- config -->	
+	<string name="mode_changed">Mode changed:</string>
+	
+	<string name="output_startupdirmodified">Changed startup directory path</string>
+	<string name="output_filecolumns">Number of colums:</string>
+	<string name="output_hiddenfilechanged">Show hidden files:</string>
+	<string name="output_skinchanged">Skin changed:</string>
+	<string name="output_doubletap">Close screen on double tap:</string>
+	<string name="output_togglerandom">Music player random reproduction:</string>
+	<string name="output_musicfolder">Music folder changed</string>
+	
+	<!-- infos -->	
+	<string name="output_about">Francesco Andreuzzi, ITA, Programmer, franzbianconero@gmail.com
+	    \n\nLuke Winward, USA, Designer</string>
+    <string name="output_refresh">Refreshed contacts and songs</string>
+
+	<!-- android -->
+    <string name="help_about">Informations about the app</string>
+	<string name="help_apps">Print a list of launchable apps</string>
+	<string name="help_assoc">Print a list of existing assocs, or create an assoc
+	    \nUsage: assoc \"assoc name\" \"entire command\" OR \"appname\"
+	    \n\nExample:
+	    \nassoc w whatsapp
+	    \n\n\nDeleting an assoc: assoc -rm \"existing assoc name\"
+	    \n\nExample:
+	    \nassoc -rm w</string>
+	<string name="help_call">Perform a call to someone;
+	    \nUsage: call \"phone number\" OR \"any contact name\"
+	    \n\ncall MOTHER</string>
+	<string name="help_config">Trigger the configuration mode</string>
+	<string name="help_data">Toggle mobile data. Will always turn off it if WiFi is active</string>
+    <string name="help_flash">Toggle the flashlight</string>
+    <string name="help_help">Print a list of available commands at this moment, or informations about a command
+        \nUsage: help \"command\"
+        \n\nExample:
+        \nhelp search</string>
+    <string name="help_install">Install an apk
+        \nUsage: install \"relative path to apk\"
+        \n\nExample
+        \ninstall download/dropbox.apk</string>
+    <string name="help_next">Play the next track in the queue</string>
+    <string name="help_play">Play or pause the current track of the queue</string>
+    <string name="help_previous">Play the last track played</string>
+    <string name="help_refresh">Refresh contacts and songs</string>
+    <string name="help_restart">Restart the current track</string>
+	<string name="help_search">Search anything in the default browser
+	    \nUsage: search \"something\"
+	    \n\nExample:
+	    \nsearch Android M</string>
+	<string name="help_share">Share a file
+	    \nUsage: share \"path to file\"
+	    \n\nExample:
+	    \nshare fool.img</string>
+	<string name="help_stop">Stop the player</string>
+	<string name="help_track">Print informations about the current track</string>
+    <string name="help_uninstall">Uninstall an application
+        \nUsage: uninstall \"application name\" OR \"package name\"
+        \n\nExample:
+        \nuninstall dropbox</string>
+    <string name="help_wifi">Toggle wifi</string>
+    
+    <!-- linux -->
+    <string name="help_cd">Change the current directory
+        \nUsage: cd \"path\"
+        \n\nExample:
+        \ncd /storage/sdcard1/DCIM</string>
+    <string name="help_cp">Copy the selected file or directory in the chosen directory
+        \nUsage: cp \"path of file to copy\" \"path of output directory\"
+        \n\nExample:
+        \ncp fool.txt /storage/sdcard1/docs</string>
+    <string name="help_ls">Print all the filenames in the current directory</string>
+    <string name="help_mkdir">Create a new directory in the current directory
+        \nUsage: mkdir \"new directory name\"
+        \n\nExample:
+        \nmkdir NewFolder</string>
+    <string name="help_mv">Move the selected file or directory in the chosen directory
+        \nUsage: mv \"path of file to move\" \"path of output directory\"
+        \n\nExample:
+        \nmv fool.jpg Photos</string>
+    <string name="help_open">Open a file with the default application
+        \nUsage: open \"relative path\"
+        \n\nExample:
+        \nopen docs/fool.txt</string>
+    <string name="help_pwd">Print the absolute path of the current directory</string>
+    <string name="help_rm">Delete the selected file or directory
+        \nUsage: rm \"path\"
+        \n\nExample:
+        \nrm fool.txt</string>
+    
+    <!-- config -->
+    <string name="help_apply">Apply changed settings and return to the launcher</string>
+    <string name="help_bgcolor">Set the background, which can be an RGB color or your default wallpaper
+        \nUsage: bgcolor \"color (RGB)\" OR \"default\"
+        \n\nExample:
+        \nbgcolor #004d40
+        \n\nAnother example:
+        \nbgcolor default</string>
+    <string name="help_devicecolor">Set the color of the printed device info
+        \nUsage: devicecolor \"color (RGB)\"
+        \n\nExample:
+        \ndevicecolor #1976d2</string>
+    <string name="help_dircolor">Set the color of the printed current directory
+        \nUsage: dircolor \"color (RGB)\"
+        \n\nExample:
+        \ndircolor #ffc107</string>
+    <string name="help_doubletap">Set if you want the screen to be closed on double tap
+        \nUsage: doubletap \"true OR false\"
+        \n\nExample:
+        \ndoubletap true</string>
+    <string name="help_filecolumns">Set the number of columns in the file view
+        \nUsage: filecolumns \"integer value\"
+        \n\nExample:
+        \nfilecolumns 2</string>
+    <string name="help_filescolor">Set the color of the printed file names in the current directory
+        \nUsage: filescolor \"color (RGB)\"
+        \n\nExample:
+        \ndilescolor #e0e0e0</string>
+    <string name="help_hiddenfiles">Decide if you want to show hidden files int the file view
+        \nUsage: hiddenfiles \"true OR false\"
+        \n\nExample:
+        \nhiddenfiles false</string>
+    <string name="help_inputcolor">Set the color of the user\'s input
+        \nUsage: inputcolor \"color (RGB)\"
+        \n\nExample:
+        \ninputcolor #76ff03</string>
+    <string name="help_musicfolder">Set the music folder
+        \nUsage: musicfolder \"path to folder\"
+        \n\nExample:
+        \nmusicfolder /storage/sdcard1/Music</string>
+    <string name="help_outputcolor">Set the color of the printed output
+        \nUsage: outputcolor \"color (RGB)\"
+        \n\nExample:
+        \noutputcolor #eeeeee</string>
+    <string name="help_ramcolor">Set the color of the printed free RAM
+        \nUsage: ramcolor \"color (RGB)\"
+        \n\nExample:
+        \nramcolor #f44336</string>
+    <string name="help_startupdir">Set the startup directory
+        \nUsage: startupdir absolute path
+        \n\nExample:
+        \nstartupdir /storage/sdcard0/Download</string>
+    <string name="help_togglerandom">Toggle music player random reproduction</string>
+    
+    
+    <!-- tutorial -->
+    <string-array name="launcher_tutorial">
+        <item>Hey, I\'m the developer. I\'ll tell you some things you should know about T-UI. 
+            This won\'t take more than 30-40 seconds, never fear! ;)</item>
+        <item>Use the command \"help\" to get a list of available commands\nIf you want to 
+        	know something about a specific command, type \"help commandname\"</item>
+        <item>The command \"assoc\" lets you create an assoc, some characters that are 
+        	converted in a command during the runtime
+       		\n\nFor example:
+        	\nassoc d cd Downloads
+        	\n\nNow \"d\" will be considered as \"cd Downloads\" forever
+        	\nUse \"help assoc\" to get more info</item>
+       	<item>The command \"config\" lets you to edit some T-UI\'s settings\nUsing this, 
+       		you\'ll enter in the config mode, which contains some commands that aren\'t available in the main mode
+        	\nYou can use \"help\" to get them</item>
+        <item>The command \"apps\" retrieves a list of available apps on your device
+            \nThe command\"call\" is a useful and fast way to call someone, using his name or his phone number</item>
+        <item>You can play your songs with a set of commands like \"play\", \"next\" and \"previous\", but you will 
+            have to set a music folder before. To do this, use the command \"musicfolder\", in the config 
+            mode
+            \nTo randomize reproduction, use \"togglerandom\" (config mode).</item>
+        <item>The tutorial is over. You can find T-UI\'s features and commands on your own, now. 
+            Have a great use!</item>
+    </string-array>
+    
+</resources>
